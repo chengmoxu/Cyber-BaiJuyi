@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歷史事件時間軸</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .timeline {
+            position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 0;
+        }
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            background-color: #2E86C1;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -3px;
+        }
+        .container {
+            padding: 10px 40px;
+            position: relative;
+            background-color: inherit;
+            width: 50%;
+        }
+        .left {
+            left: 0;
+        }
+        .right {
+            left: 50%;
+        }
+        .content {
+            padding: 20px;
+            background-color: white;
+            position: relative;
+            border-radius: 6px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .left .content {
+            margin-right: 45px;
+        }
+        .right .content {
+            margin-left: 45px;
+        }
+        .date {
+            padding: 8px 16px;
+            background-color: #2E86C1;
+            color: white;
+            border-radius: 4px;
+            position: absolute;
+            top: 15px;
+        }
+        .left .date {
+            right: -90px;
+        }
+        .right .date {
+            left: -90px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="timeline">
+    <div class="container left">
+        <div class="date">772年</div>
+        <div class="content">
+            <h2>出生</h2>
+            <p>白居易出生於太原，字樂天。</p>
+        </div>
+    </div>
+    <div class="container right">
+        <div class="date">779年</div>
+        <div class="content">
+            <h2>文學生涯開始</h2>
+            <p>未冠，謁顧況，開始其文學生涯。</p>
+        </div>
+    </div>
+    <div class="container left">
+        <div class="date">800年</div>
+        <div class="content">
+            <h2>進士及第</h2>
+            <p>貞元中，擢進士、拔萃皆中，補校書郎。</p>
+        </div>
+    </div>
+    <div class="container right">
+        <div class="date">806年</div>
+        <div class="content">
+            <h2>授官</h2>
+            <p>元和元年，對制策乙等，調盩厔尉，為集賢校理，召入翰林為學士，遷左拾遺。</p>
+        </div>
+    </div>
+    <div class="container left">
+        <div class="date">810年</div>
+        <div class="content">
+            <h2>建言</h2>
+            <p>四年，天子以旱甚，下詔有所蠲貸，居易見詔節未詳，即建言乞盡免江淮兩賦，以救流瘠，且多出宮人。憲宗頗採納。</p>
+        </div>
+    </div>
+    <div class="container right">
+        <div class="date">814年</div>
+        <div class="content">
+            <h2>請官</h2>
+            <p>歲滿當遷，帝以資淺，且家素貧，聽自擇官。居易請如姜公輔以學士兼京兆戶曹參軍，以便養，詔可。明年，以母喪解，還，拜左贊善大夫。</p>
+        </div>
+    </div>
+    <div class="container left">
+        <div class="date">815年</div>
+        <div class="content">
+            <h2>請捕賊</h2>
+            <p>盜殺武元衡，京都震擾。居易首上疏，請亟捕賊，刷朝廷恥，以必得為期。宰相嫌其出位，不悅。俄有言：「居易母墮井死，而居易賦《新井篇》，言浮華，無實行，不可用。」出為州刺史。</p>
+        </div>
+    </div>
+    <div class="container right">
+        <div class="date">820年</div>
+        <div class="content">
+            <h2>徙忠州刺史</h2>
+            <p>徙忠州刺史。入為司門員外郎，以主客郎中知制誥。</p>
+        </div>
+    </div>
+    <div class="container left">
+        <div class="date">822年</div>
+        <div class="content">
+            <h2>任杭州刺史</h2>
+            <p>轉任杭州刺史，始築堤捍錢塘湖，鐘洩其水，溉田千頃。復浚李泌六井，民賴其汲。</p>
+        </div>
+    </div>
+    <div class="container right">
+        <div class="date">825年</div>
+        <div class="content">
+            <h2>拜蘇州刺史</h2>
+            <p>拜蘇州刺史，病免。</p>
+        </div>
+    </div>
+    <div class="container left">
+        <div class="date">827年</div>
+        <div class="content">
+            <h2>以秘書監召</h2>
+            <p>以秘書監召，遷刑部侍郎，封晉陽縣男。</p>
+        </div>
+    </div>
+    <div class="container right">
+        <div class="date">833年</div>
+        <div class="content">
+            <h2>任同州刺史</h2>
+            <p>起為同州刺史，不拜，改太子少傅，進馮翊縣侯。</p>
+        </div>
+    </div>
+    <div class="container left">
+        <div class="date">841年</div>
+        <div class="content">
+            <h2>致仕</h2>
+            <p>會昌初，以刑部尚書致仕。</p>
+        </div>
+    </div>
+    <div class="container right">
+        <div class="date">846年</div>
+        <div class="content">
+            <h2>卒</h2>
+            <p>卒，年七十五，贈尚書右僕射，宣宗以詩吊之。遺命薄葬，毋請謚。</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
